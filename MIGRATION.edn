@@ -1,0 +1,12 @@
+{:migration/id :business-manager/standalone-owner
+ :migration/date "2026-07-18"
+ :migration/source {:repository "https://github.com/etzhayyim/root"
+                    :revision "3d4da7bbc49ed159d8bf55fa1c91e9de12b004dd"
+                    :path "20-actors/business-manager"}
+ :migration/implementation-owner "https://github.com/etzhayyim/com-etzhayyim-business-manager"
+ :migration/changes [:import-root-only-social-method
+                     :import-root-only-social-post-cell
+                     :normalize-clojure-src-test-layout
+                     :prune-duplicate-py-implementation
+                     :prune-legacy-jsonld]
+ :migration/canonical-format :edn}

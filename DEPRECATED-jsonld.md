@@ -8,6 +8,6 @@ RisingWave/SQL/Cypher as canonical).
 **Canonical manifest is now `manifest.edn`** (kotoba-native), per **ADR-2606072000** — the
 worked Phase-A conversion of the substrate remediation wave (ADR-2606071800). business-manager
 is now an **internal-only, append-only double-entry ERP** on the kotoba Datom log, audited by
-`toritate`. See `py/agent.py` (+ 15 passing tests) and `kotoba/schema.edn`.
+`toritate`. See `src/business_manager/methods/agent.cljc`, its tests, and `kotoba/schema.edn`.
 
-The JSON-LD file is retained for **one R-cycle** for reference, then removed. Do not extend it.
+The compatibility cycle is complete and the JSON-LD file was removed. EDN is authoritative.
