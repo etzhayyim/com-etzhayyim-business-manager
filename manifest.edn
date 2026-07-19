@@ -41,7 +41,6 @@
  ["com.etzhayyim.businessManager.journalEntry"
   "com.etzhayyim.businessManager.purchaseOrder"
   "com.etzhayyim.businessManager.invoice"
-  "com.etzhayyim.businessManager.employee"
   "com.etzhayyim.businessManager.budgetAllocation"]
 
  :actor/siblings
